@@ -1,6 +1,19 @@
 Turple is a collection of data. it is heterogeneous in nature just like list but the only diffference is that turple is immutable.The difference between list and turple is turple uses bracket
-
-
+Turple also accept indexing and order in nature. The only thing is that you cannot modify the value of turole thereby making it immutable. Turple is read only.
+Turple is immutable, you cannot append or remove value from turple.
+  
 c = ( 10, 'ada', 20, 30, 'true' )
 print (type(c) )
 <class 'tuple'>
+
+print (c)
+(10, 'ada', 20, 30, 'true')
+
+Turple is immutable, you cannot change, append or remove value from turple. it will give you error if you try to.
+c[0] = 500
+ERROR: Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    c[0] = 500
+TypeError: 'tuple' object does not support item assignment
+
+
