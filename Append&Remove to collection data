@@ -1,0 +1,14 @@
+Append is a method or function to add to a list or empty list.
+b = []
+b.append (100)
+b.append (200)
+b.append (300)
+
+print (b)
+[100, 200, 300]
+
+#Remove is the opposite of append
+
+b.remove (200)
+print (b)
+[100, 300]
