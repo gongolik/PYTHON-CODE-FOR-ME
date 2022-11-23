@@ -1,0 +1,2 @@
+Collection of data are obejects(variables and functions) that are subject to change when it is modify and the object changes. COllection of data includes: List, turple, set, frozen set, dict, byte bytearray.
+Collection of data can be heterogeneous in nature i.e it can hold multiple values.
