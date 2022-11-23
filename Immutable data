@@ -1,4 +1,4 @@
-Fundamental Data types: Integer, flow, string and boolean.
+Fundamental Data types: Integer, flow, string and boolean. Fundamental data type. can accept single value are immutable in nature
 Immutable data is a fundamental data that are object in nature and cannot change. Any attempt to change the object gives another object because it produces new id.
 
 a = 10
