@@ -1,0 +1,6 @@
+Turple is a collection of data. it is heterogeneous in nature just like list but the only diffference is that turple is immutable.The difference between list and turple is turple uses bracket
+
+
+c = ( 10, 'ada', 20, 30, 'true' )
+print (type(c) )
+<class 'tuple'>
