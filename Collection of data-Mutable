@@ -1,2 +1,15 @@
 Collection of data are obejects(variables and functions) that are subject to change when it is modify and the object changes. COllection of data includes: List, turple, set, frozen set, dict, byte bytearray.
 Collection of data can be heterogeneous in nature i.e it can hold multiple values.
+
+a = [ 10, 'ada', 20, 30, 'true']
+print (type(a))
+<class 'list'>
+# using indexing with list to access the first element
+print ( a[0] )
+10
+# accessing the second index
+print ( a[1] )
+ada
+#Aceesing the last insex
+print ( a[-1] )
+true
