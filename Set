@@ -3,7 +3,7 @@ a = {10, 20, 30, "sunil"}
 print (type(a))
 <class 'set'>
 # For duplicate, if you pass duplicate value, it ignores the duplicate and print only one out OR gives syntax error. Also, There is no indexing as well. It will give Error
-# To add element to a. you will use the normal bracket and not the curly bracket used for set
+# To add or remove element to a, you will use the normal bracket and not the curly bracket used for set. Therefore, Set is mutable. 
 a.add(50)
 print(a)
 {10, 50, 20, 'sunil', 30}
