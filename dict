@@ -1,4 +1,4 @@
-Dict is use to express Key:Value pairs. Order is not important. Duplicate Keys are not allowed. When you add another key that is the same, It will replace the initial key
+Dict is use to express and store information using Key:Value pairs. Order is not important. Duplicate Keys are not allowed. When you add another key that is the same, It will replace the initial key
 However, Duplicate Values are allowed. Heterogenous values are allowed. Indexing is not allowed.
 
 a = {100:'ada', 200:'kemi', 300:'fola'} ------- The bracket that is use is flower or curly bracket for this Dict
