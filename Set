@@ -7,3 +7,7 @@ print (type(a))
 a.add(50)
 print(a)
 {10, 50, 20, 'sunil', 30}
+
+
+#Difference BTW append and Add
+append  is for List because it add element at the end while Add is for Set because it add element without considering the order.
