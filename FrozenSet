@@ -1,0 +1,6 @@
+This is the same as set but it is Immutable unlike set that is mutable. In frozenset, you cannot Add or Remove because it is immutable
+# FrozenSet....Althouh, when doing frozenset, you still have to pass a set as an input you are going to use to get the frozenset. a is Set and b is frozenset
+a = {10,20,30,40}
+b = frozenset(a)
+print (type(b))
+<class 'frozenset'>
