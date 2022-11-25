@@ -17,7 +17,8 @@ ada
 print ( a[-1] )
 true
 
-Turple is a collection of data. it is heterogeneous in nature just like list but the only diffference is that turple is immutable.The difference between list and turple is turple uses bracket
+TURPLE 
+TURPLE is a collection of data. it is heterogeneous in nature just like list but the only diffference is that turple is immutable.The difference between list and turple is turple uses bracket
 Turple also accept indexing and order in nature. The only thing is that you cannot modify the value of turole thereby making it immutable. Turple is read only.
 Turple is immutable, you cannot append or remove value from turple.
   
@@ -34,4 +35,19 @@ ERROR: Traceback (most recent call last):
   File "<pyshell#27>", line 1, in <module>
     c[0] = 500
 TypeError: 'tuple' object does not support item assignment
+
+SET
+Set makes use of flower bracket {}. duplicate is not allowed, order is not important and heterogeneous is allowed.
+a = {10, 20, 30, "sunil"}
+print (type(a))
+<class 'set'>
+# For duplicate, if you pass duplicate value, it ignores the duplicate and print only one out OR gives syntax error. Also, There is no indexing as well. It will give Error
+# To add or remove element to a, you will use the normal bracket and not the curly bracket used for set. Therefore, Set is mutable. 
+a.add(50)
+print(a)
+{10, 50, 20, 'sunil', 30}
+
+
+#Difference BTW append and Add
+append  is for List because it add element at the end while Add is for Set because it add element without considering the order.
 
