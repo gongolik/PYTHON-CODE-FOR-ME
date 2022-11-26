@@ -1,0 +1,9 @@
+Non Data
+
+This means no values. When an object has a value and you wan to make it to go to Gabbage collection then you point it to None value.
+a = 10
+a = none
+NOTE. None too is also an object like 10 is an object. The type of class for None object  is NoneType
+How many None object can you create?
+you can create as many as you can. It just like integer, you can craete as many as you can but you are only creating one object. because every one objects you create give
+You the same ID. We can only create One None object or value.
