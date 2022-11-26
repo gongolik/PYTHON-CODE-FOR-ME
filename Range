@@ -52,3 +52,72 @@ range(50, 70)
 67
 68
 69
+
+Another way to pass a Range is 
+a = range(begin, end, incremental)   This means the range will start from 1 and end to 20 and begin to increase by 1)
+>>> c = range(1, 21, 1)
+>>> for x in c:
+...     print(x)
+...
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+Let's do increment by 2
+e = range(1,10,2)
+>>> for x in e:
+...    print(x)
+...
+1
+3
+5
+7
+9
+
+Let's us decrement the values
+f = range(20, 1, -2)
+>>> for x in f:
+...      print(x)
+...
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+
+NOTE: When order is allowed, index is also allowed.
+ g = range(10,21)  -----------------------10,11....20
+ 
+>>> print(g[0])...........This access the first element
+10
+>>> print(g[1]).............This access the second element
+11
+>>> print(g[-1])............This is access the last element
+20
+
+Ranage does not support modify range object. It will give syntax error. I.e Range is immutable
+if you want to modify the second element
+print(g[1])=75
+SyntaxError: cannot assign to function call
