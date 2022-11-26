@@ -1,0 +1,30 @@
+Excape characters. 
+These charcters will have specail function
+
+\n ------This means new line.
+print('olugbenga\nAlawode')
+olugbenga
+Alawode
+print('Olugbenga\nAlawode\nNigeria')
+Olugbenga
+Alawode
+Nigeria
+
+\t-------This is the tab space between 2 strings.
+print('Olugbenga\tAlawode')
+Olugbenga	Alawode
+
+\r----------This means the return.
+This mean it will first print the first charracter then retern back to the first character before it prints the second character.
+print('Olugbenga\rAlawode')
+Olugbenga
+Alawode
+
+\'----This will print the single quote between the 2 characters.
+print('Olugbenga\'Alawode')
+Olugbenga'Alawode
+
+ \"  This will priny double quote within the characters.
+print('Olugbenga\"Alawode')
+Olugbenga"Alawode
+
