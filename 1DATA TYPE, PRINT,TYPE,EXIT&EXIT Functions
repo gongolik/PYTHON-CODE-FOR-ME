@@ -1,0 +1,69 @@
+IDENTIFIER
+
+A variable name in python is called Identifier 
+a=10
+a --- is the identifier. You can use the PRINT FUNCTION to carry out the identifier
+a=10
+print(a)
+10
+RULES TO DEFINE IDENTIFIER
+Identifier can be a,A,0 to 9, Underscored(_), Identifier cannot start with a digit number but the number can be use in btw the aphabeth
+You cannot use keyword as variable in python. There are 33 keywords for python: True,False,None,and,or, not, is, if, elif, else, while, for, break, continue, 
+return, in, yield, try, except, finally, raise, assert, import, from,as,class,def,pass,global,nonlocal,lambda,del,with
+NOTE: True,False and None have Upper case in them out of the 33 reserved keywords
+
+NOTE: Variable in python is case sensitive.
+total = 100
+Total = 200
+TOTAL = 300
+ 
+print(total)
+100
+print(Total)
+200
+print(TOTAL)
+300
+
+To calculate the sum of two numbers
+a=10
+b=20
+print(a+b)
+30
+TO KNOW A FUNCTION OF A DATA TYPE. We make use of TYPE FUNCTION
+For Integer---You can use dat type to know if it is integer
+>>> a=20
+>>> type(a)
+<class 'int'>
+For Float----
+>>> b=20.5
+>>> type(b)
+<class 'float'>
+For boolean-----
+>>> c=True
+>>> type(c)
+<class 'bool'>
+
+Examples of Boealean
+>>> a=20
+>>> b=30
+>>> print(a>b)
+False
+
+NOTE:  True is represented as 1 and False is represented as 0 
+>>> print(True + True)
+2
+>>> print(True - False)
+1
+>>> print(True * False)
+0
+>>>
+
+
+
+EXIT FUNCTION----This is use to close the environment
+exit()
+
+ID FUNCTION----This shows the address of that particular variable
+>>> a=30
+>>> id(a)
+140707765081800
