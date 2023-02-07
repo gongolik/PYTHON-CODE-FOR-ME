@@ -20,32 +20,57 @@ Logiclabs
                Technologies
 >>>
 
-USING INDEX IN STRINGS-----
-
+USING INDEX IN STRINGS-----Index will help you access any character or alphaebeth in the string.Index number starts with 0. You must always put it in square bracket
+Index will give you one character to be printed.
 
 a = 'olugbenga '
 print ( a[0] )
 o
 print( a[4] )
 b
+
+SLICE-----Getting some characters from the whole string. a[beginning index: ending index]
+NOTE: The ending index is always end-1 i.e in the below example, the olugbenga character is 8 but for us to get the 8 characters, we have to use 9 at the ending index.
+OR for you to get 4, you must use 5 at the ending index
 print ( a[0:9] )
 olugbenga
-print ( a[0: ] )
-olugbenga 
+
 print ( a[0:5] )
 olugb
+
+Note, if you do not specify the begin index, then the default value is 0. So you don't get no error if you do not mention any value at the begining index
+print ( a[:9 ] )
+olugbenga 
+
+Note, If you do not specify the ending index, then it returns All charrcters till end of the string
+print ( a[0: ] )
+olugbenga 
+
+Note, If you do not specify the beginning and the ending index, it gives you the entire string. Just like you are writing print(a)
+
+LEN-------
 print( len(a) )
 10
+NOTE, All what we have been doing above is positive Index
+
+NEGATIVE INDEX----This will start from the last character. and it start with -1 which is a, -2 which is g etc
+>>> print(a[-1])
+a
+>>> print(a[-2])
+g
+>>>
+You can always use positive and negative index to get your character
+CONVERTING from Lower case to Upper case or From Upper case to lower case
+Example to convert from olugbenga to Olugbenga, we have to use Upper function to make the first character to be capital letter O
 print( a[0].upper() )
 O
-print ( a[9].upper() )
  
 print ( a[4].upper() )
 B
+Now, you have print the first letter to be Capital letter O, To print all the remaining letters in smaller letters using slicing.
 print ( a[0].upper() + a[1:] )
 Olugbenga 
 
-( a[0: len(a) -1] + a[-1].upper() )
-        
-'olugbenga '
+print ( a[0: len(a) -1] + a[-1].upper() )
+'olugbengA '
  
